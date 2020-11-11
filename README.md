@@ -3,7 +3,7 @@ BENV0091 Group Project for (predicting) Antarctic Ice Sheets by Supervised Learn
 
 We are heavily using [**Jupyter Notebook**](https://jupyter.org/) as our developing platform to implement, build, and test our SL models for environmental risks on Antarctic ice sheets, and using [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) to create isolated environments and manage our R packages.
 
-## Create a new and isolated R environment for existing conda users
+## For existing conda users: create a new and isolated R environment
 Open terminal and run:
 ```terminal
 conda create -n r_env r-essentials
@@ -20,8 +20,6 @@ Open Jupyter Notebook:
 ```terminal
 jupyter notebook
 ```
-Create a **New** Jupyter Notbook using **R**, or **uploading** an existing **ipynb** file from your Mac, or move to specific items to perform actions.
-
 Exit the current Jupyter environment: press ```control``` ```c``` at terminal
 
 ### Install new packages for R
