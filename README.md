@@ -11,7 +11,7 @@ conda create -n r_env r-essentials
 p.s., This command will install the package [r-essentials](https://docs.anaconda.com/anaconda/user-guide/tasks/using-r-language/#:~:text=The%20R%20Essentials%20bundle%20contains,interpreter%20installed%20into%20new%20environments.) when creating new environment.
 The ```new and isolated R environment``` is named ```r_env``` here.
 
-### Jupyter: how to open Jupyter Notebook
+### Open Jupyter Notebook
 Open terminal & activate your R environment:
 ```terminal
 conda activate r_env
@@ -24,7 +24,7 @@ Create a **New** Jupyter Notbook using **R**, or **uploading** an existing **ipy
 
 Exit the current Jupyter environment: press ```control``` ```c``` at terminal
 
-### Conda: how to install new packages for R
+### Install new packages for R
 Open terminal & activate your R environment:
 ```terminal
 conda activate r_env
