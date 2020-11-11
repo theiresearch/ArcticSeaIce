@@ -41,7 +41,7 @@ Select package, copy and paste the code and run:
 ![](https://i.loli.net/2020/11/11/5QPBfTN1OXdmrAu.jpg)
 
 ## Data Credits
-- Ice Sheets data: Ice mass measurement by NASA's GRACE satellites, NASA.
+- Antarctic ice sheets: Ice mass measurement by NASA's GRACE satellites, NASA.
 - CO2: Monthly measurements (average seasonal cycle removed), [NOAA](https://www.noaa.gov/).
 - NOx: NASA Earth Observations team based on data provided by Lok Lamsal, NASA Goddard Space Flight Center, and the OMI science team.
 - Fossil fuel consumption: Our World in Data based on BP Statistical Review of World Energy.
