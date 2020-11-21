@@ -1,7 +1,7 @@
-# antarctic
-BENV0091 Group Project for (predicting) Antarctic Ice Sheets by Supervised Learning (SL).
+# arctic
+BENV0091 Group Project for (predicting) Arctic Sea Ice by Supervised Learning (SL).
 
-We are heavily using [**Jupyter Notebook**](https://jupyter.org/) as our developing platform to implement, build, and test our SL models for environmental risks on Antarctic ice sheets, and using [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) to create isolated environments and manage our R packages.
+We are heavily using [**Jupyter Notebook**](https://jupyter.org/) as our developing platform to implement, build, and test our SL models for environmental risks on Arctic sea ice, and using [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) to create isolated environments and manage our R packages.
 
 ## For existing conda users: create a new and isolated R environment
 Open terminal and run:
@@ -39,10 +39,10 @@ Select package, copy and paste the code and run:
 ![](https://i.loli.net/2020/11/11/5QPBfTN1OXdmrAu.jpg)
 
 ## Data Credits
-- Antarctic ice sheets: Ice mass measurement by NASA's GRACE satellites, NASA.
-- CO2: Monthly measurements (average seasonal cycle removed), [NOAA](https://www.noaa.gov/).
-- NOx: NASA Earth Observations team based on data provided by Lok Lamsal, NASA Goddard Space Flight Center, and the OMI science team.
-- Fossil fuel consumption: Our World in Data based on BP Statistical Review of World Energy.
-- Population: Our World in Data based on Gapminder and UN Population Division (2019).
-- Antarctic ozone hole area: Our World in Data based on NASA Ozone Hole Watch.
-- Share of primary energy from renewable sources: Our World in Data based on BP Statistical Review of World Energy (2020).
+- Arctic sea ice: ...
+- CO2: ...
+- Ozone: ...
+- Temperature: ...
+- Rainfall and daylight: ...
+- Primary Energy Consumption/Fossil fuel consumption: ...
+- Population:...
