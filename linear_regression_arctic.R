@@ -13,7 +13,7 @@ corrplot(feature_correlations,method="circle")
 lm1<-lm(extent~rainfall+daylight+population+CO2+ozone+ocean_temp+land_temp,data=arctic)
 lm1 # extent as y
 
-lm2<-lm(extent~rainfall+daylight+population+CO2+ozone+ocean_temp+land_temp,data=arctic)
+lm2<-lm(area~rainfall+daylight+population+CO2+ozone+ocean_temp+land_temp,data=arctic)
 lm2 # area as y
 
 
