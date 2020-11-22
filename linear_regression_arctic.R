@@ -1,6 +1,6 @@
 # load data
 
-arctic <-read.csv("091.csv",stringsAsFactors = F)
+arctic <-read.csv("arctic_data.csv.csv",stringsAsFactors = F)
 
 # correlation matrix
 
