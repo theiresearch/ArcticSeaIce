@@ -25,16 +25,19 @@ prediction <- as.data.frame(
 
 # table gathering and merging
 pred_gather <- gather(data=prediction, key="fold",value="prediction",1:10)
-result <- as.data.frame(cbind(arctic[,c(1,2,3,6)],pred_gather))
+result <- as.data.frame(cbind(arctic[,c(1,6)],pred_gather))                                     #改为c(1,6)
 
 # calculate value of R^2
 result["R^2"] <- ((result$area-result$prediction)^2)
 R_square <- sum(result$`R^2`)/490
 
-# plot line chart (Prediction vs True)
+# plot line chart (Prediction vs True)                                                          #plot整体改动针对X轴显示
 plot(result$observation,result$area,type ='l',ylim = c(0,1.5),lwd = '2',
-     xlab = "Observation_ID", ylab = "Value")
+     xlab = "Date", ylab = "Value",xaxt='n')
 lines(result$observation,result$prediction,lty=1,col='red',lwd = '2')
+axis(1,at=c(1,61,121,181,241,301,361,421,481),
+     labels=c("Jan 1980","Jan 1985","Jan 1990","Jan 1995","Jan 2000","Jan 2005",
+              "Jan 2010","Jan 2015","Jan 2020"))
 
 # title and legend
 title(main = list("Linear Regression", cex = 1.5, col = "red", font = 3)) 
