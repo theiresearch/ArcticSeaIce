@@ -1,11 +1,11 @@
 # load data
 
-arctic <-read.csv("arctic_data.csv.csv",stringsAsFactors = F)
+arctic <-read.csv("arctic_data.csv",stringsAsFactors = F)
 
 # correlation matrix
 
 library(corrplot)
-feature_correlations <- cor(arctic[,3:11])
+feature_correlations <- cor(arctic[,5:13])
 corrplot(feature_correlations,method="circle")
 
 # Linear Regression
@@ -19,8 +19,8 @@ lm2 # area as y
 
 # show results
 
-summary(lm1) 
-summary(lm2) 
+summary(lm1)
+summary(lm2)
 
 # AIC optimization
 
