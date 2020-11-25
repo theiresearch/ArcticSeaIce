@@ -39,5 +39,5 @@ lines(result$observation,result$prediction,lty=1,col='red',lwd = '2')
 # title and legend
 title(main = list("Linear Regression", cex = 1.5, col = "red", font = 3)) 
 legend("topright", inset=.05, c("Prediction","True"),bty = 'n',
-       lty=c(2, 1),  col=c("red", "black"),lwd =c(2, 2))
+       lty=c(1, 1),  col=c("red", "black"),lwd =c(2, 2))
 
