@@ -16,15 +16,15 @@ mtry_5<-randomForest(extent~ rainfall+daylight+population+CO2
                        +ozone+ocean_temp+land_temp, data = arctic, mtry=6, ntree=300)}
 
 # plot result (the error tends to be stable when tree = 200)
-{plot(mtry_1,col='red',ylim=c(0.0005,0.005),lwd = '2',main = 'Random Forest')
+{plot(mtry_1,col='red',ylim=c(0.0005,0.008),lwd = '2',main = 'Random Forest')
 par(new=TRUE)
-plot(mtry_2,col='blue',ylim=c(0.0005,0.005),lwd ='2',main = '')
+plot(mtry_2,col='blue',ylim=c(0.0005,0.008),lwd ='2',main = '')
 par(new=TRUE)
-plot(mtry_3,col='orange',ylim=c(0.0005,0.005),lwd = '2',main = '')
+plot(mtry_3,col='orange',ylim=c(0.0005,0.008),lwd = '2',main = '')
 par(new=TRUE)
-plot(mtry_4,col='green',ylim=c(0.0005,0.005),lwd = '2',main = '')
+plot(mtry_4,col='green',ylim=c(0.0005,0.008),lwd = '2',main = '')
 par(new=TRUE)
-plot(mtry_5,col='pink',ylim=c(0.0005,0.005),lwd = '2',main = '')}
+plot(mtry_5,col='pink',ylim=c(0.0005,0.008),lwd = '2',main = '')}
 
 legend("topright", inset=.05, c("mtry=2","mtry=3","mtry=4","mtry=5","mtry=6"),bty = 'n',
        lty=c(1,1,1,1,1),  col=c("red","blue","orange","green","pink"),lwd =c(2, 2))
