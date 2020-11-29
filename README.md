@@ -1,5 +1,5 @@
 # arctic
-BENV0091 Group Project for predicting Arctic Sea Ice by Supervised Learning
+BENV0091 Group Project: Predicting Arctic Sea Ice with Supervised Learning
 
 ## R environment
 We are heavily using [**Jupyter Notebook**](https://jupyter.org/) as our developing platform to implement, build, and test our SL models for environmental risks on Arctic sea ice, and using [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) to create isolated environments and manage our R packages.
