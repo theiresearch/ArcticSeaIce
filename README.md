@@ -4,7 +4,7 @@ BENV0091 Group Project: Predicting Arctic Sea Ice with Supervised Learning
 ## R environment
 We are heavily using [**Jupyter Notebook**](https://jupyter.org/) as our developing platform to implement, build, and test our SL models for environmental risks on Arctic sea ice, and using [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) to create isolated environments and manage our R packages.
 
-For new/existing users of miniconda/Anaconda, please go to [Install miniconda & set base environment](https://github.com/realgjl/r_basic/blob/master/README.md#install-miniconda--set-base-environment-python) or [For existing conda users: create a new and isolated R environment](https://github.com/realgjl/r_basic/blob/master/README.md#for-existing-conda-users-create-a-new-and-isolated-r-environment).
+For new/existing users of miniconda/Anaconda, please go to [Install miniconda & set base environment](https://github.com/realgjl/r_basic/blob/master/README.md#install-miniconda--set-base-environment-python) and/or [For existing conda users: create a new and isolated R environment](https://github.com/realgjl/r_basic/blob/master/README.md#for-existing-conda-users-create-a-new-and-isolated-r-environment).
 
 ## Necessary libraries
 tidyverse corrplot MASS randomforest neuralnet
