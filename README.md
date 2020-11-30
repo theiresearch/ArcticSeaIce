@@ -18,5 +18,4 @@ conda install -c conda-forge r-tidyverse r-corrplot r-mass r-randomforest r-neur
 - Ozone: [NASA Goddard Space Flight Center](https://ozonewatch.gsfc.nasa.gov/meteorology/NH.html)
 - Temperature: [National Oceanic and Atmospheric Administration](https://www.ncdc.noaa.gov/cag/global/time-series)
 - Rainfall and daylight: [Weather US](https://www.weather-us.com/en/alaska-usa/north-pole-climate)
-- Primary Energy Consumption/Fossil fuel consumption: [Our World in Data](https://ourworldindata.org/grapher/fossil-fuel-primary-energy?tab=chart&time=2002..2019&country=~OWID_WRL)
 - Population:[Our World in Data](https://ourworldindata.org/grapher/projected-population-by-country?tab=chart&stackMode=absolute&time=1967..latest&country=~OWID_WRL&region=World)
