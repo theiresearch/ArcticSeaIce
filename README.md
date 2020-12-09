@@ -19,4 +19,4 @@ conda install -c conda-forge r-tidyverse r-corrplot r-mass r-randomforest r-neur
 - Temperature: [National Oceanic and Atmospheric Administration](https://www.ncdc.noaa.gov/cag/global/time-series)
 - Rainfall and daylight: [Weather US](https://www.weather-us.com/en/alaska-usa/north-pole-climate)
 - Population:[Our World in Data](https://ourworldindata.org/grapher/projected-population-by-country?tab=chart&stackMode=absolute&time=1967..latest&country=~OWID_WRL&region=World)
-- GDP in current USD: [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2019&start=1960) & [IMF](https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/OEMDC/ADVEC/WEOWORLD) (World GDP will fall -4.4% in 2020)
+- GDP in current USD: [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2019&start=1960) & [IMF](https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/OEMDC/ADVEC/WEOWORLD) (World GDP will fall -4.4% in 2020, +5.2% in 2021, +4.2% in 2022)
