@@ -1,5 +1,6 @@
 # arctic
 BENV0091 Group Project: Predicting Arctic Sea Ice with Supervised Learning
+Shiny App: https://grouporangearcticiceextent.shinyapps.io/shiny/?_ga=2.114418575.940438834.1607903962-2063170584.1607903962
 
 ## R environment
 We are heavily using [**Jupyter Notebook**](https://jupyter.org/) as our developing platform to implement, build, and test our SL models for environmental risks on Arctic sea ice, and using [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) to create isolated environments and manage our R packages.
