@@ -20,3 +20,14 @@ conda install -c conda-forge r-tidyverse r-corrplot r-mass r-randomforest r-neur
 - Rainfall and daylight: [Weather US](https://www.weather-us.com/en/alaska-usa/north-pole-climate)
 - Population:[Our World in Data](https://ourworldindata.org/grapher/projected-population-by-country?tab=chart&stackMode=absolute&time=1967..latest&country=~OWID_WRL&region=World)
 - GDP in current USD: [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2019&start=1960) & [IMF](https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/OEMDC/ADVEC/WEOWORLD) (World GDP will fall -4.4% in 2020, +5.2% in 2021, +4.2% in 2022)
+
+## Key results: Performance Table
+| Model                                       | R-squared |   MSE  |
+| --------------------------------------------|-----------|--------| 
+|Linear Regression                            | 0.898     | 0.00946|
+|Penalized Linear Regression (Lasso, min)     | 0.863     | 0.00690|
+|Penalized Linear Regression (Lasso, 1se)     | 0.857     | 0.00734|
+|Penalized Polynomial Regression (Lasso, min) | 0.931     | 0.00448|
+|Penalized Polynomial Regression (Lasso, 1se) | 0.917     | 0.00483|
+|Random Forest                                | 0.983     |  0.00105| 
+|Neural Networks                              | 0.927     | 0.00106|
