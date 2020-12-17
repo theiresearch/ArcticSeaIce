@@ -29,5 +29,5 @@ conda install -c conda-forge r-tidyverse r-corrplot r-mass r-randomforest r-neur
 |Penalized Linear Regression (Lasso, 1se)     | 0.857     | 0.00734|
 |Penalized Polynomial Regression (Lasso, min) | 0.931     | 0.00448|
 |Penalized Polynomial Regression (Lasso, 1se) | 0.917     | 0.00483|
-|Random Forest                                | 0.983     |  0.00105| 
+|**Random Forest                                | 0.983     |  0.00105**| 
 |Neural Networks                              | 0.927     | 0.00106|
