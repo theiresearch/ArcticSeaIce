@@ -30,3 +30,23 @@ from sklearn.neural_network import MLPRegressor # multiplayer perceptron
 - GDP in current USD: [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2019&start=1960) & [IMF](https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/OEMDC/ADVEC/WEOWORLD) (World GDP will fall -4.4% in 2020, +5.2% in 2021, +4.2% in 2022)
 
 ## Key results: Performance Table
+![](https://s1.ax1x.com/2022/04/24/LhN3XF.png)
+
+|Experiment       |            Metric              |  Value     |
+|-----------------|--------------------------------|------------|
+|LassoLinearmodel |            R2                  |   0.916707 |
+|LassoLinearmodel |            Explained Variance  |   0.920295 |
+|LassoLinearmodel |            MSE                 |   0.006924 |
+|LassoLinearmodel |            MAE                 |   0.068930 |
+|PolynomialLassoLinearmodel |  R2                  |   0.941503 |
+|PolynomialLassoLinearmodel |  Explained Variance  |   0.941943 |
+|PolynomialLassoLinearmodel |  MSE                 |   0.004863 |
+|PolynomialLassoLinearmodel |  MAE                 |   0.059528 |
+|RandomForestmodel |           R2                  |   0.988162 |
+|RandomForestmodel |           Explained Variance  |   0.988394 |
+|RandomForestmodel |           MSE                 |   0.000984 |
+|RandomForestmodel |           MAE                 |   0.024542 |
+|AdvancedNN |                  R2                  |   0.984525 |
+|AdvancedNN |                  Explained Variance  |   0.984801 |
+|AdvancedNN |                  MSE                 |   0.001286 |
+|AdvancedNN |                  MAE                 |   0.026479 |
