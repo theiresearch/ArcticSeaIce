@@ -1,19 +1,23 @@
 # arctic
-BENV0091 Group Project: Predicting Arctic Sea Ice with Supervised Learning
+Predicting Arctic Sea Ice with Machine Learning
 
-Visualisation: [Shiny App](https://grouporangearcticiceextent.shinyapps.io/shiny/?_ga=2.114418575.940438834.1607903962-2063170584.1607903962)
+## Past source code and report during UCL
+https://github.com/UCL-BENV0091-Antarctic/arctic
 
-Report in PDF: https://realgjl.com/report/ucl/arctic_sea_ice.pdf
+## Python environment
+We use [Deepnote](https://deepnote.com) as our development and analysis platform.
 
-## R environment
-We are heavily using [**Jupyter Notebook**](https://jupyter.org/) as our developing platform to implement, build, and test our SL models for environmental risks on Arctic sea ice, and using [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) to create isolated environments and manage our R packages.
-
-For new/existing users of miniconda/Anaconda, please go to [Install miniconda & set base environment](https://github.com/realgjl/r_basic/blob/master/README.md#install-miniconda--set-base-environment-python) and/or [For existing conda users: create a new and isolated R environment](https://github.com/realgjl/r_basic/blob/master/README.md#for-existing-conda-users-create-a-new-and-isolated-r-environment).
-
-## Necessary libraries
-tidyverse corrplot MASS randomforest neuralnet
-```terminal
-conda install -c conda-forge r-tidyverse r-corrplot r-mass r-randomforest r-neuralnet
+## Main libraries
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
+import seaborn as sns # contains barplot
+from sklearn.metrics import r2_score, explained_variance_score, mean_squared_error, mean_absolute_error
+from sklearn.linear_model import LassoCV # lasso linear model with cross-validation
+from sklearn.ensemble import RandomForestRegressor # random forest
+from sklearn.ensemble import GradientBoostingRegressor # gradient boosting
+from sklearn.neural_network import MLPRegressor # multiplayer perceptron
 ```
 
 ## Data Credits
@@ -26,12 +30,3 @@ conda install -c conda-forge r-tidyverse r-corrplot r-mass r-randomforest r-neur
 - GDP in current USD: [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2019&start=1960) & [IMF](https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/OEMDC/ADVEC/WEOWORLD) (World GDP will fall -4.4% in 2020, +5.2% in 2021, +4.2% in 2022)
 
 ## Key results: Performance Table
-| Model                                       | R-squared |   MSE  |
-| --------------------------------------------|-----------|--------| 
-|Linear Regression                            | 0.898     | 0.00946|
-|Penalized Linear Regression (Lasso, min)     | 0.863     | 0.00690|
-|Penalized Linear Regression (Lasso, 1se)     | 0.857     | 0.00734|
-|Penalized Polynomial Regression (Lasso, min) | 0.931     | 0.00448|
-|Penalized Polynomial Regression (Lasso, 1se) | 0.917     | 0.00483|
-|**Random Forest**                            | **0.983** |  **0.00105**| 
-|Neural Networks                              | 0.927     | 0.00106|
