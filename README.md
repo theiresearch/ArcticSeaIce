@@ -5,7 +5,7 @@ Predicting Arctic Sea Ice with Machine Learning
 https://github.com/UCL-BENV0091-Antarctic/arctic
 
 ## Python environment
-We use [Deepnote](https://deepnote.com) as our development and analysis platform.
+We use [Colab](http://colab.research.google.com) as our development and analysis platform.
 
 ## Main libraries
 ```python
