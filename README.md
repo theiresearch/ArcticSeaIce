@@ -1,7 +1,7 @@
 # arctic
 Predicting Arctic Sea Ice with Machine Learning
 
-## Past source code and report during UCL
+## UCL source code and report (December 2020)
 https://github.com/UCL-BENV0091-Antarctic/arctic
 
 ## Python environment
